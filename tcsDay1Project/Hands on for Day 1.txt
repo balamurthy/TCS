@@ -1,0 +1,29 @@
+Hands on for Day 1
+
+
+Create a maven project
+
+Create two packages under src/test/java
+
+Website under test 
+https://the-internet.herokuapp.com/login
+
+
+  SmokeTests
+
+	1. Check the title of the page
+ 	2. Validate if it contains a certain text / begins with a certain text
+	3. Check if the password is masked
+	
+
+  SanityTests
+
+	1. Login test
+		first input correct username "tomsmith" inside username box
+		input SuperSecretPassword! in password field
+		click on Login button /link - clue - it is a link but appears to be a button.
+		(Use By.CSSSelector method to identify the login button)
+		
+
+
+		
