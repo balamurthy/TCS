@@ -1,0 +1,28 @@
+Alerts windows 
+https://demoqa.com/alertsWindows
+
+1. open a tab in the current window
+button id=tabButton -click
+
+extract text from id=sampleHeading in the newly opened tab.
+use the switchTo()
+
+2. Alerts
+https://demoqa.com/alerts
+
+button id=alertButton
+use the switchTo() and accept the alert
+3.Confirm 
+button id=confirmButton
+find the confirmButton and click on it
+use switchTo and accept the alert
+validate if expected text is displayed in the id=confirmResult area
+clue:use getText() method of the confirmResult element
+compare expected with actualText and pass/fail 
+4. Same approach for button with id=promtbutton
+Validate the messages displayed after clicking ok or cancel
+
+
+
+
+

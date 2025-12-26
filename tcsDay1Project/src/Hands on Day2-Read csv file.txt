@@ -1,0 +1,10 @@
+Read csv file 
+1. Create a data.csv file
+2. Include dependency in pom.xml for opencsv
+3. Create a util package
+4. Place the CSVUtils.java in the util package
+5. Create a Test case class with main method
+   called readCSVAndLoginTest extends CSVUtils
+6. Create a double dimension array and call the readLoginData (path to the csv file in src/test/resources folder)
+7. Iterate through the rows and columns , get the row wise username and password
+8. Call the login method from loginUtil class
