@@ -1,0 +1,18 @@
+Day3 - Prerequisite - TestNG order of execution exercise to be completed.
+Console output to be given.
+To check if report is generated, Failed tests xml is available
+To check if index.html in test-output folder is available.
+
+Create a package called TestNGTests under src/test/java
+
+Sample website - the-internet Herokuapp.com
+
+1. Create a TestNG class and name it as homepagetests
+
+2. Create a @Test annotated method logotest inside homepagetests
+	use absolute xpath to check the logo in the web page.
+ 	(Create a html page with some logo image inside a table. Run the test by locating the image with absolute xpath. It will pass first. Then modify the html page and place the image in the second row. Run the testng class again it should fail)
+
+3. Create a @Test annotated method titleTest inside homepagetests
+	
+
