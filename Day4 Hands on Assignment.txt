@@ -1,0 +1,12 @@
+30-12-25
+
+1. Assignment - Broken link Tester sanity test 
+        Paste the linkvalidation util method I upload in GitHub 
+	into basetest.java
+
+2. Dataprovider - inline data provider as well as csv file reading and supplying data to dataprovider in testNG
+
+3.ExtentReport configuration 
+
+	
+
