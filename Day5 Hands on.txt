@@ -1,0 +1,9 @@
+Day5 hands on
+
+1. Read a property file and get the url value to check broken links in a page and print them.(linkvalidation method available in BaseTest)
+
+2. Read excel file and load the content in a dataprovider, use it to login to herokuapp.com/login in a testNG test case.
+dpExcel, ExcelUtil )
+
+3. Object Repository from Excel - List all objects to be used in advantageonlineshopping.com website Search functionality in a excel file with its locators. Search for a keyword and pass if results are found, fail if results are not found.
+
