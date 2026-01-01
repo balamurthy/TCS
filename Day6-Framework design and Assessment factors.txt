@@ -1,0 +1,13 @@
+Day6-Framework assessment and coverage factors
+
+TestNG Groups (smoke and sanity) tests titleChecker, usernamepositionchecker, password masked checker,login test, contact us phone number format test/timeanddate.com date/time test using regexp
+TestNG Data Driven approach- either login or search functionality
+TestNG dependsOnMethods	as in login should be done only after visibility check of username, position check etc are completed.
+Property file used y/n(Broken link test url)
+Extent report
+POM - page class homepage and landingpage and testNG test code
+Naming convention (For classes , methods and variables)
+TestNG-Failed tests
+TestNg Tests using POM
+Use of xpath and locators (Absolute xpath and relative xpath)
+
