@@ -15,7 +15,7 @@ Do update pet from code (Test Case 3) -PetstoreTests.java uploaded in GitHub for
 Do a getPet to check if updation is reflected.
 Take a snapshot of the changed status of the pet 
 
-Leads to consolidate each member's Previous and Post updation snapshot into a single word document and email bala.murthy@gmail.com
+Leads to consolidate each member's Previous and Post updation snapshot into a single word document and upload the same in LMS.
 
 
 
