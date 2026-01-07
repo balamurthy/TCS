@@ -1,0 +1,46 @@
+name: Selenium Cucumber TestNG CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:   # manual trigger
+
+jobs:
+  test:
+    runs-on: windows-latest   # use ubuntu-latest if you prefer
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Java 11
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+          cache: 'maven'
+
+      - name: Verify Java & Maven
+        run: |
+          java -version
+          mvn -version
+
+      - name: Run Selenium Cucumber Tests
+        run: mvn clean test
+
+      - name: Upload Cucumber JSON Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-json-report
+          path: target/cucumber-reports/*.json
+
+      - name: Upload Extent Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extent-report
+          path: target/extent-report
+
